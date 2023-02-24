@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+
+  <link rel="StyleSheet" href="styles.css"
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form" action="asdf">
+    <label id="name-label"> <input id="name" type="text" placeholder="Enter your name" required> </label>
+    <label id="email-label"> <input id="email" type="email" placeholder="Enter your Email" required> </label>
+    <label id="number-label"> <input id="number" type="number" placeholder="Age" min="10" max="99"> </label>
+    <label id="dropdown-label">
+      <select id="dropdown">
+        <option value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="job">Full Time Job</option>
+        <option value="learner">Full Time Learner</option>
+        <option value="preferNo">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+    <label>What is your favorite feature of freeCodeCamp?
+      <input name="user-recommend" type="radio" value="definitely">Definitely</input>
+      <input name="user-recommend" type="radio" value="maybe">Maybe</input>
+      <input name="user-recommend" type="radio" value="notSure">Not sure</input>
+    </label>
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <label>Front-end Projects
+      <input type="checkbox" value="FrontEndProjects" />
+    </label>
+    <label>Back-end Projects
+      <input type="checkbox" value="BackEndProjects" />
+    </label>
+    <label>Data Visualization
+      <input type="checkbox" value="DataVisualization" />
+    </label>
+    <label>Challenges
+      <input type="checkbox" value="Challenges" />
+    </label>
+    <label>Open Source Community
+      <input type="checkbox" value="OpenSourceCommunity" />
+    </label>
+    <label>Gitter help rooms
+      <input type="checkbox" value="GitterHelpRooms" />
+    </label>
+    <label>Videos
+      <input type="checkbox" value="Videos" />
+    </label>
+    <label>City Meetups
+      <input type="checkbox" value="CityMeetups" />
+    </label>
+    <label>Wiki
+      <input type="checkbox" value="Wiki" />
+    </label>
+    <label>Forum
+      <input type="checkbox" value="Forum" />
+    </label>
+    <label>Additional Courses
+      <input type="checkbox" value="AdditionalCourses" />
+    </label>
+    <label>Any comments or suggestions?
+      <textarea placeholder="Enter your comment here..."></textarea>
+    </label>
+
+    <input id="submit" type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

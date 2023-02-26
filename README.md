@@ -13,3 +13,15 @@
 4. Learn HTML Forms by Building a Registration Form
 
 5. Certification Project - Survey Form
+
+### Project - Tribute Page
+
+1. Learn the CSS Box Model by Building a Rothko Painting
+
+2. Learn CSS Flexbox by Building a Photo Gallery
+
+3. Learn Typography by Building a Nutrition Label
+
+4. Learn Accessibility by Building a Quiz
+
+5. Certification Project - Tribute Page

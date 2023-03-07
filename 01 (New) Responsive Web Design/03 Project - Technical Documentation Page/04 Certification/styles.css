@@ -1,0 +1,5 @@
+@media(max-size: 668px){
+  #navbar {
+    display: flex;
+  }
+}
